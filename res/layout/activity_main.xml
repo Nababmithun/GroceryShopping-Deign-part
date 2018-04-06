@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#263238"
+    tools:context="com.androidlime.groceryshopping.MainActivity">
+
+
+
+   <LinearLayout
+
+
+       android:textColor="#F0F4C3"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="40dp">
+
+       <ImageView
+
+              android:layout_marginLeft="30dp"
+              android:src="@drawable/fffff"
+              android:layout_width="50dp"
+              android:layout_height="29dp" />
+
+           <TextView
+               android:textColor="#F0F4C3"
+           android:textSize="25dp"
+           android:text="Grocery Shopping"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />"
+
+   </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+
+            android:id="@+id/login"
+            android:background="#000000"
+            android:textColor="#F0F4C3"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="Login"
+            android:layout_width="160dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:id="@+id/loginn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/register"
+            android:background="#000000"
+            android:textColor="#F0F4C3"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="Register"
+            android:layout_width="160dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+
+            android:id="@+id/offers"
+            android:background="#000000"
+            android:textColor="#F0F4C3"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="New Offers"
+            android:layout_width="160dp"
+            android:layout_height="150dp" />
+
+
+        <Button
+            android:id="@+id/offer"
+            android:background="#000000"
+            android:textColor="#F0F4C3"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="Payment"
+            android:layout_width="160dp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+
+            android:id="@+id/contacts"
+            android:background="#000000"
+            android:textColor="#F0F4C3"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="Contact Us"
+            android:layout_width="160dp"
+            android:layout_height="150dp" />
+
+
+        <Button
+            android:background="#000000"
+            android:textColor="#F0F4C3"
+            android:id="@+id/faqs"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="FAQs"
+            android:layout_width="160dp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

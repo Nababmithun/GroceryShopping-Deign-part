@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">"Grocery Shopping "</string>
+
+
+
+
+    <string name="bol">
+
+        1.Why shoud i buy online?\n
+        Ans: Because we provide greate deals  and free  home delivery.
+
+
+    </string>
+
+
+
+    <string name="bal">
+
+        2.How can place an order?\n
+        Ans: Search through our wide range of produce and select or just call on our coustomer care and give your order details and item to modify.
+
+
+
+    </string>
+
+
+    <string name="bale">
+
+
+        3.How do i returne an item i am not satisfied?\n
+        Ans:We maintain an absolute "No question asked" policy at the time of delivery .if you are not satisfy
+        with the excellenc freshness or quailty of the products plase do return the necessary
+        item to the delivery executive at time of delivery.
+    </string>
+</resources>
